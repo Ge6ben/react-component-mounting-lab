@@ -11,9 +11,7 @@ class App extends Component {
 
   //Your code here:
   componentDidMount() {
-    fetch("http://localhost:3000/messages")
-    .then(r => r.json())
-    .then(timerID => this.setState({ timerID })) 
+this.handleAddTimer()
 }
 
 
